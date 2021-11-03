@@ -11,7 +11,8 @@
     "storybook": "start-storybook -p 6006",
     "test": "lerna run test",
     "ui": "yarn workspace @template/ui",
-    "website": "yarn workspace @template/website"
+    "website": "yarn workspace @template/website",
+    "cra": "yarn workspace @template/cra-app"
   },
   "devDependencies": {
     "@babel/core": "7.16.0",
