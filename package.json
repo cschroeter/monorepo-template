@@ -8,15 +8,20 @@
   ],
   "scripts": {
     "build": "lerna run build",
+    "storybook": "start-storybook -p 6006",
     "test": "lerna run test",
     "ui": "yarn workspace @template/ui",
     "website": "yarn workspace @template/website"
   },
   "devDependencies": {
+    "@babel/core": "7.16.0",
     "@commitlint/cli": "14.1.0",
     "@commitlint/config-conventional": "14.1.0",
+    "@storybook/addon-essentials": "6.3.12",
+    "@storybook/react": "6.3.12",
     "@typescript-eslint/eslint-plugin": "5.3.0",
     "@typescript-eslint/parser": "5.3.0",
+    "babel-loader": "8.2.3",
     "eslint": "8.1.0",
     "eslint-plugin-react": "7.26.1",
     "eslint-plugin-react-hooks": "4.2.0",
@@ -34,5 +39,6 @@
   "volta": {
     "node": "16.13.0",
     "yarn": "1.22.17"
-  }
+  },
+  "dependencies": {}
 }
