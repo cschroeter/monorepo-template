@@ -16,6 +16,9 @@
     "src"
   ],
   "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "microbundle --jsx React.createElement",
     "test": "jest"
