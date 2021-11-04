@@ -20,18 +20,27 @@
     "access": "public"
   },
   "scripts": {
-    "build": "concurrently yarn:build:*",
-    "build:vite": "vite build",
+    "previte": "rimraf dist",
+    "vite": "vite build",
+    "premicrobundle": "rimraf dist",
     "microbundle": "microbundle --jsx React.createElement --format modern,esm,cjs",
-    "build:types": "tsc --emitDeclarationOnly",
-    "test": "jest"
+    "types": "tsc --emitDeclarationOnly",
+    "prebuild": "rimraf dist",
+    "build": "concurrently yarn:build:*",
+    "build:esm": "tsc --module esnext --outDir dist/esm",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs",
+    "build:types": "tsc --emitDeclarationOnly --declaration --declarationMap --declarationDir dist/types",
+    "test": "jest",
+    "swc": "swc src/index.ts -o dist/index.js",
+    "esbuild": "esbuild  src/index.ts --bundle --minify --sourcemap  --outfile=dist/index.js"
   },
   "dependencies": {
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "@swc/core": "1.2.105",
+    "@swc/cli": "^0.1.51",
+    "@swc/core": "^1.2.106",
     "@swc/jest": "0.2.5",
     "@testing-library/jest-dom": "5.11.10",
     "@testing-library/react": "11.2.6",
@@ -40,8 +49,8 @@
     "@types/jest": "26.0.23",
     "@types/react": "17.0.33",
     "@types/react-dom": "17.0.10",
-    "microbundle": "0.14.1",
     "jest": "27.3.1",
+    "microbundle": "0.14.1",
     "vite": "2.6.13"
   },
   "jest": {

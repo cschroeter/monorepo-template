@@ -5,5 +5,7 @@ interface ButtonProps {
 }
 
 export const Button = (props: ButtonProps) => {
+  const name = 'Christian'
+  console.log(name)
   return <button style={{ background: 'blue' }}>{props.label}</button>
 }
