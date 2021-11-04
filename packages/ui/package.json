@@ -20,9 +20,9 @@
     "access": "public"
   },
   "scripts": {
-    "microbundle": "microbundle --jsx React.createElement",
     "build": "concurrently yarn:build:*",
     "build:vite": "vite build",
+    "microbundle": "microbundle --jsx React.createElement --format modern,esm,cjs",
     "build:types": "tsc --emitDeclarationOnly",
     "test": "jest"
   },
