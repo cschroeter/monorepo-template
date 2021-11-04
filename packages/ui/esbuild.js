@@ -9,6 +9,8 @@ const ExcludeExternalPackagesPlugin = {
 }
 
 build({
+  platform: 'node',
+  format: 'esm',
   entryPoints: ['src/index.ts'],
   bundle: true,
   minify: true,
@@ -18,6 +20,7 @@ build({
 
 build({
   platform: 'node',
+  format: 'cjs',
   entryPoints: ['src/index.ts'],
   bundle: true,
   minify: true,
