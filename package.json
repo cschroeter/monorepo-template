@@ -12,8 +12,8 @@
     "storybook": "start-storybook -p 6006",
     "test": "lerna run test",
     "lint": "lerna run lint",
-    "ui": "yarn workspace @template/ui",
-    "website": "yarn workspace @template/website"
+    "ui": "pnpm workspace @template/ui",
+    "website": "pnpm workspace @template/website"
   },
   "devDependencies": {
     "@babel/core": "7.16.0",
@@ -48,5 +48,9 @@
     "**/*.{js,jsx,ts,tsx,json,html}": [
       "prettier --write"
     ]
+  },
+  "gitHooks": {
+    "pre-commit": "echo blub",
+    "commit-msg": "node scripts/verifyCommit.js"
   }
 }
