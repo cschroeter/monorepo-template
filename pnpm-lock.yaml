@@ -38,7 +38,7 @@ importers:
 
   packages/ui:
     specifiers:
-      '@swc/core': ^1.2.108
+      '@swc/core': 1.2.108
       '@swc/jest': 0.2.5
       '@testing-library/jest-dom': 5.15.0
       '@testing-library/react': 12.1.2
@@ -52,10 +52,10 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2
     dependencies:
-      '@swc/core': 1.2.108
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
+      '@swc/core': 1.2.108
       '@swc/jest': 0.2.5_@swc+core@1.2.108
       '@testing-library/jest-dom': 5.15.0
       '@testing-library/react': 12.1.2_react-dom@17.0.2+react@17.0.2
@@ -2177,7 +2177,6 @@ packages:
 
   /@napi-rs/triples/1.0.3:
     resolution: {integrity: sha512-jDJTpta+P4p1NZTFVLHJ/TLFVYVcOqv6l8xwOeBKNPMgY/zDYH/YH7SJbvrr/h1RcS9GzbPcLKGzpuK9cV56UA==}
-    dev: false
 
   /@next/env/12.0.4:
     resolution: {integrity: sha512-QtZ6X5c6Zqa7oWs5csEmZ7xy+gLdtRKKg02SOT5l0Ziea4P5IU8mSOCyNC4fZmXewcRVjpbY+yGqAAP7hJUfOA==}
@@ -2333,7 +2332,7 @@ packages:
     resolution: {integrity: sha512-R5wEmm8nbuQU0YGGmYVjEc0OHtYsuXdpRG+Ut/3wZ9XAvQWyThN08bTh2cBJgoZxHQUPtvRfeQuxcAgLuiBISg==}
     dependencies:
       '@napi-rs/triples': 1.0.3
-    dev: false
+    dev: true
 
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -3736,7 +3735,7 @@ packages:
     cpu: [arm64]
     os: [android]
     requiresBuild: true
-    dev: false
+    dev: true
     optional: true
 
   /@swc/core-darwin-arm64/1.2.108:
@@ -3745,7 +3744,7 @@ packages:
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
-    dev: false
+    dev: true
     optional: true
 
   /@swc/core-darwin-x64/1.2.108:
@@ -3754,7 +3753,7 @@ packages:
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
-    dev: false
+    dev: true
     optional: true
 
   /@swc/core-freebsd-x64/1.2.108:
@@ -3763,7 +3762,7 @@ packages:
     cpu: [x64]
     os: [freebsd]
     requiresBuild: true
-    dev: false
+    dev: true
     optional: true
 
   /@swc/core-linux-arm-gnueabihf/1.2.108:
@@ -3772,7 +3771,7 @@ packages:
     cpu: [arm]
     os: [linux]
     requiresBuild: true
-    dev: false
+    dev: true
     optional: true
 
   /@swc/core-linux-arm64-gnu/1.2.108:
@@ -3781,7 +3780,7 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
-    dev: false
+    dev: true
     optional: true
 
   /@swc/core-linux-arm64-musl/1.2.108:
@@ -3790,7 +3789,7 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
-    dev: false
+    dev: true
     optional: true
 
   /@swc/core-linux-x64-gnu/1.2.108:
@@ -3799,7 +3798,7 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
-    dev: false
+    dev: true
     optional: true
 
   /@swc/core-linux-x64-musl/1.2.108:
@@ -3808,7 +3807,7 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
-    dev: false
+    dev: true
     optional: true
 
   /@swc/core-win32-arm64-msvc/1.2.108:
@@ -3817,7 +3816,7 @@ packages:
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
-    dev: false
+    dev: true
     optional: true
 
   /@swc/core-win32-ia32-msvc/1.2.108:
@@ -3826,7 +3825,7 @@ packages:
     cpu: [ia32]
     os: [win32]
     requiresBuild: true
-    dev: false
+    dev: true
     optional: true
 
   /@swc/core-win32-x64-msvc/1.2.108:
@@ -3835,7 +3834,7 @@ packages:
     cpu: [x64]
     os: [win32]
     requiresBuild: true
-    dev: false
+    dev: true
     optional: true
 
   /@swc/core/1.2.108:
@@ -3856,7 +3855,7 @@ packages:
       '@swc/core-win32-arm64-msvc': 1.2.108
       '@swc/core-win32-ia32-msvc': 1.2.108
       '@swc/core-win32-x64-msvc': 1.2.108
-    dev: false
+    dev: true
 
   /@swc/jest/0.2.5_@swc+core@1.2.108:
     resolution: {integrity: sha512-7Vb+RXuXWk47QbOPJ3hwSIMCwUVylp7JUhUITVtMe3hMoBv0IMfVCML9p6jiRhoBAzjzYDPPteKoVxSUJjFNPA==}
