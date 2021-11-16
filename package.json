@@ -7,9 +7,11 @@
     "packages/*"
   ],
   "scripts": {
+    "prepare": "husky install",
     "build": "lerna run build",
     "storybook": "start-storybook -p 6006",
     "test": "lerna run test",
+    "lint": "lerna run lint",
     "ui": "yarn workspace @template/ui",
     "website": "yarn workspace @template/website"
   },
@@ -19,17 +21,16 @@
     "@commitlint/config-conventional": "14.1.0",
     "@storybook/addon-essentials": "6.3.12",
     "@storybook/react": "6.3.12",
-    "@typescript-eslint/eslint-plugin": "5.3.1",
-    "@typescript-eslint/parser": "5.3.1",
+    "@typescript-eslint/eslint-plugin": "5.4.0",
+    "@typescript-eslint/parser": "5.4.0",
     "babel-loader": "8.2.3",
-    "concurrently": "6.3.0",
+    "concurrently": "6.4.0",
     "eslint": "8.2.0",
-    "eslint-plugin-react": "7.26.1",
-    "eslint-plugin-react-hooks": "4.2.0",
+    "eslint-plugin-react": "7.27.0",
     "husky": "7.0.4",
     "lerna": "4.0.0",
+    "lint-staged": "12.0.2",
     "prettier": "2.4.1",
-    "pretty-quick": "3.1.1",
     "typescript": "4.4.4"
   },
   "commitlint": {
@@ -41,5 +42,12 @@
     "node": "16.13.0",
     "yarn": "1.22.17"
   },
-  "dependencies": {}
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "eslint --fix"
+    ],
+    "**/*.{js,jsx,ts,tsx,json,html}": [
+      "prettier --write"
+    ]
+  }
 }

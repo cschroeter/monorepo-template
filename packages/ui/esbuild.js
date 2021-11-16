@@ -3,7 +3,7 @@ import { build } from 'esbuild'
 const ExcludeExternalPackagesPlugin = {
   name: 'ExcludeExternalPackagesPlugin',
   setup(build) {
-    const filter = /^[^.\/]|^\.[^.\/]|^\.\.[^\/]/
+    const filter = /^[^./]|^\.[^./]|^\.\.[^/]/
     build.onResolve({ filter }, (args) => ({ path: args.path, external: true }))
   },
 }

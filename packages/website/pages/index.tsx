@@ -1,11 +1,13 @@
-import type { NextPage } from 'next'
 import { Button } from '@template/ui'
+import type { NextPage } from 'next'
+import React from 'react'
 
 const Home: NextPage = () => {
   return (
     <div>
       <h1>Hello World</h1>
-      <Button label="Hello World" />
+
+      <Button>Hello World</Button>
     </div>
   )
 }
