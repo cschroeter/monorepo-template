@@ -8,6 +8,6 @@ export default {
 export const MyDemo = () => (
   <div>
     <h1>Hello World</h1>
-    <Button label="Hello" />
+    <Button>Hello</Button>
   </div>
 )

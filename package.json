@@ -1,6 +1,6 @@
 {
   "name": "dx-playground",
-  "private": "true",
+  "private": true,
   "author": "DX Team",
   "license": "MIT",
   "workspaces": [
@@ -39,8 +39,7 @@
     ]
   },
   "volta": {
-    "node": "16.13.0",
-    "yarn": "1.22.17"
+    "node": "16.13.0"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
