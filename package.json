@@ -5,10 +5,12 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
-    "build": "pnpm --filter ./packages run build",
+    "build": "pnpm build -r",
     "storybook": "start-storybook -p 6006",
-    "test": "pnpm --filter ./packages run test",
-    "lint": "pnpm --filter ./packages run lint"
+    "test": "pnpm test -r",
+    "lint": "pnpm lint -r --parrallel",
+    "ui": "pnpm --filter=@template/ui",
+    "website": "pnpm --filter=@template/website"
   },
   "devDependencies": {
     "@babel/core": "7.16.0",
