@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react'
+import { render } from '@testing-library/react'
 import * as React from 'react'
 import { Button } from './Button'
 
@@ -14,6 +14,6 @@ test.each([
   'vuswtg',
   'cairoiexitzo',
 ])('a button works as expected %s', async (value: string) => {
-  render(<Button label={value} />)
+  const screen = render(<Button>{value}</Button>)
   expect(screen.getByText(value)).toBeInTheDocument()
 })
