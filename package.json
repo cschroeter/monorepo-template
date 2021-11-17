@@ -45,5 +45,8 @@
     "**/*.{js,jsx,ts,tsx,json,html}": [
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "prettier-plugin-organize-imports": "^2.3.4"
   }
 }
