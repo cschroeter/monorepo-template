@@ -40,7 +40,11 @@ importers:
 
   packages/ui:
     specifiers:
+<<<<<<< HEAD
       '@swc/core': 1.2.111
+=======
+      '@swc/core': 1.2.110
+>>>>>>> chore: bump deps
       '@swc/jest': 0.2.5
       '@testing-library/jest-dom': 5.15.0
       '@testing-library/react': 12.1.2
@@ -57,8 +61,13 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
+<<<<<<< HEAD
       '@swc/core': 1.2.111
       '@swc/jest': 0.2.5_@swc+core@1.2.111
+=======
+      '@swc/core': 1.2.110
+      '@swc/jest': 0.2.5_@swc+core@1.2.110
+>>>>>>> chore: bump deps
       '@testing-library/jest-dom': 5.15.0
       '@testing-library/react': 12.1.2_react-dom@17.0.2+react@17.0.2
       '@testing-library/react-hooks': 7.0.2_react-dom@17.0.2+react@17.0.2
@@ -4735,8 +4744,13 @@ packages:
       - '@types/react'
     dev: true
 
+<<<<<<< HEAD
   /@swc/core-android-arm64/1.2.111:
     resolution: {integrity: sha512-CtIw5i0kfEb2CHbbjwnH8RmeNn0CxFuzUKzzLx6Q3DuYEaV743ueM2iORSkLmwns0rcgFWBVSFIf6xJeWErlOA==}
+=======
+  /@swc/core-android-arm64/1.2.110:
+    resolution: {integrity: sha512-TrCQMTE6rZucmqGGspHPXt/0W9ZWTtDf9mo7CHm/8BejP0rt1ypucw7p6F5c2yqco2oOZMQMwXVui8T3vaR+2g==}
+>>>>>>> chore: bump deps
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [android]
@@ -4744,8 +4758,13 @@ packages:
     dev: true
     optional: true
 
+<<<<<<< HEAD
   /@swc/core-darwin-arm64/1.2.111:
     resolution: {integrity: sha512-/dMyb+7RRYJu5EgPZGyQRnCyDo4h7icBjOW7Q1MHboyQIloFBB7bfLIizRFuUzNi5T89nczfjXjzP84jPODq7Q==}
+=======
+  /@swc/core-darwin-arm64/1.2.110:
+    resolution: {integrity: sha512-PAL7dEcbK3TMDso3AFHbaUESYA03jGxX4aMvlc4jdhXMnh65h5oCCHWgSqJ95WeWsZrf8BuLo9qiffD8q0cYOg==}
+>>>>>>> chore: bump deps
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [darwin]
@@ -4753,8 +4772,13 @@ packages:
     dev: true
     optional: true
 
+<<<<<<< HEAD
   /@swc/core-darwin-x64/1.2.111:
     resolution: {integrity: sha512-C0K7pLWG5VdGHBgdOFG4pU4d3kCLCyFcJ6DzRpkFzsWfdxekqPatNfrhkPoK6g1xmYRu6wDN91KTszBlvHXHYg==}
+=======
+  /@swc/core-darwin-x64/1.2.110:
+    resolution: {integrity: sha512-qnATeGNC2/scRWuAVvzImcDDEGyTu9I1NQ4lUUmkU3ohUcjIzCG6dO/U7jcO63uYASaXAC1RSs9kVDgmq0V1iQ==}
+>>>>>>> chore: bump deps
     engines: {node: '>=10'}
     cpu: [x64]
     os: [darwin]
@@ -4762,8 +4786,13 @@ packages:
     dev: true
     optional: true
 
+<<<<<<< HEAD
   /@swc/core-freebsd-x64/1.2.111:
     resolution: {integrity: sha512-vpzTanJ6pwlMmtwLtu7622+ewC4BrkLoZuI9kxki5EoAqDZDT5zS/VYEjRNntfcNrEgu6/HqtZ8wjCZWcRN23w==}
+=======
+  /@swc/core-freebsd-x64/1.2.110:
+    resolution: {integrity: sha512-41TzKWet5qosvQtkUd7NDAZRiXzak/xYliTPn2T8t9P2VdaRz8SUCqnTbEL2RzWScOoVpm8XmdLsD87ARWbwvQ==}
+>>>>>>> chore: bump deps
     engines: {node: '>=10'}
     cpu: [x64]
     os: [freebsd]
@@ -4771,8 +4800,13 @@ packages:
     dev: true
     optional: true
 
+<<<<<<< HEAD
   /@swc/core-linux-arm-gnueabihf/1.2.111:
     resolution: {integrity: sha512-E4220K7pDIJy3GcVzoaX5xTvPiEfDaA9/YqT9jEG+y5mShYhVHnariDWFfeQ7EMcziCbuk0+HJnYC155V/3F8w==}
+=======
+  /@swc/core-linux-arm-gnueabihf/1.2.110:
+    resolution: {integrity: sha512-+4I4ZFA4x0dX1T4gndHy3CxLQkLqBa5+Aci9db/VL38wYPuwZh7Q9PxgOTe+IT/LDqaqFSZajLvRDQ2r7KhsAg==}
+>>>>>>> chore: bump deps
     engines: {node: '>=10'}
     cpu: [arm]
     os: [linux]
@@ -4780,8 +4814,13 @@ packages:
     dev: true
     optional: true
 
+<<<<<<< HEAD
   /@swc/core-linux-arm64-gnu/1.2.111:
     resolution: {integrity: sha512-b5Y3WogFfr1rK7rLPEKPInzZsO9uKlu2Or2feGo1jf4ISpJTEo4FHTXOANeUbSxXqKtnSKS4yXglz8z0oO3WKA==}
+=======
+  /@swc/core-linux-arm64-gnu/1.2.110:
+    resolution: {integrity: sha512-K3ZxTJnkWRdfuXpNJyUTav6iGPONW1L3SgqE1ZT+3orKAQIP85zHwHFDxuHNKCMLr+LVqIdh+ZxSyIOSRMmTGg==}
+>>>>>>> chore: bump deps
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
@@ -4789,8 +4828,13 @@ packages:
     dev: true
     optional: true
 
+<<<<<<< HEAD
   /@swc/core-linux-arm64-musl/1.2.111:
     resolution: {integrity: sha512-iWzAEpc4wScjxge4ctWB0lL2/8M1Z0v8dHtE8mM/4ye6yUAo9QRDipRKVeRQ7sxjcvZoyNxJ3e1oo3uTPUdUeA==}
+=======
+  /@swc/core-linux-arm64-musl/1.2.110:
+    resolution: {integrity: sha512-aidbDIHRyI4vrCIftOxBL+qInZWSTK3Y5mR/ngTqWRB0WLzFBIKzjC7Htj8iUmJBF1g820LRVzZrplBdUIWgFQ==}
+>>>>>>> chore: bump deps
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
@@ -4798,8 +4842,13 @@ packages:
     dev: true
     optional: true
 
+<<<<<<< HEAD
   /@swc/core-linux-x64-gnu/1.2.111:
     resolution: {integrity: sha512-jJaKxsy7ePZ1dB+LQKAFNsprYMeeMeOaoE7o3fyOZba+FBJ1iR8EgZg68OJLmqawHpBk/pn2PefaJXejUQyxjA==}
+=======
+  /@swc/core-linux-x64-gnu/1.2.110:
+    resolution: {integrity: sha512-LiLkxX2NSw7zyYAuPItMIrPhB6/VU8HJnMvGS/k7E2h7mR17m2qTsiW+8NWcpYAYMWHCbUVFqaLXK7tw+1JgDg==}
+>>>>>>> chore: bump deps
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
@@ -4807,8 +4856,13 @@ packages:
     dev: true
     optional: true
 
+<<<<<<< HEAD
   /@swc/core-linux-x64-musl/1.2.111:
     resolution: {integrity: sha512-JNSOePB9GqLOMpVSm2hii2ApzKaMYdbifCBoefl20mWNtZ/K3TLSOIlRdpEZkS4Str9p3WzksTj/gqYiTu3Ygg==}
+=======
+  /@swc/core-linux-x64-musl/1.2.110:
+    resolution: {integrity: sha512-K/IEQRIpdaH4cXvxP8Is9a7Twn0WgKVX5NjDcv+q+CGZyDL3EQ+yRk5ebSIAMt9o7rHdA0GCZARGk9ZoYPosYw==}
+>>>>>>> chore: bump deps
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
@@ -4816,8 +4870,13 @@ packages:
     dev: true
     optional: true
 
+<<<<<<< HEAD
   /@swc/core-win32-arm64-msvc/1.2.111:
     resolution: {integrity: sha512-73wLT42Tet2qPQxzr5CpZQwxuX0u+r1xTGpNOFYo8vdtjmPdWwbZZaMafIehol/G6NBiDZMuqonwMik6u1e2+A==}
+=======
+  /@swc/core-win32-arm64-msvc/1.2.110:
+    resolution: {integrity: sha512-bP6dwcyRVQdpVrQv7T2LfwhmtwzdgOXFyuWW22wWKtaSkmx7H3yG3xc/ea6kOorOAMxKGmMF2tO+5r8hBq+mZA==}
+>>>>>>> chore: bump deps
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [win32]
@@ -4825,8 +4884,13 @@ packages:
     dev: true
     optional: true
 
+<<<<<<< HEAD
   /@swc/core-win32-ia32-msvc/1.2.111:
     resolution: {integrity: sha512-8XmYrlv1/Gl2fLbC46dJweXKfDBXrEzhdl+bYG+M3Xw3JE/gJIP/weQj+pweF12wNEQd7Z+fEw40jcG3z/dE1A==}
+=======
+  /@swc/core-win32-ia32-msvc/1.2.110:
+    resolution: {integrity: sha512-+wBdcAQ9sgM/L6wkJMQmeJ6E7tE1sC+0VxFzBTDLMLkDVn3hEC6bXr40yb+eX2uQ/AA7Siz4ggIAo6sEKzTS+A==}
+>>>>>>> chore: bump deps
     engines: {node: '>=10'}
     cpu: [ia32]
     os: [win32]
@@ -4834,8 +4898,13 @@ packages:
     dev: true
     optional: true
 
+<<<<<<< HEAD
   /@swc/core-win32-x64-msvc/1.2.111:
     resolution: {integrity: sha512-dpvQuuq9IDZAtB3p3bibz2K+hoxUDL+SjxDjZWvSA8ZjRRB9AXtvBHknQyXA2LHGKO+0unlK+goO0Q2VDzzQ7w==}
+=======
+  /@swc/core-win32-x64-msvc/1.2.110:
+    resolution: {integrity: sha512-l0TjuqcbSdp1fh36u/IEygrNbg01OBCValeJZS4k33NMD7rWGDqcWSYzlwI4foqwlEV+8FVAfnzQ+rUEkXnAGA==}
+>>>>>>> chore: bump deps
     engines: {node: '>=10'}
     cpu: [x64]
     os: [win32]
@@ -4843,12 +4912,18 @@ packages:
     dev: true
     optional: true
 
+<<<<<<< HEAD
   /@swc/core/1.2.111:
     resolution: {integrity: sha512-efI4NV08apB6hpWuJr9SCR5Zr8hqbhqMtSMJc3YBqKutUJppOQfcN7AMm+lI4Me3kwgVpgKC+E5lviUX6N++qA==}
+=======
+  /@swc/core/1.2.110:
+    resolution: {integrity: sha512-mLz3J75SumU1v2d5Escd3+Ae4Qcpo1UMHreyCMp6eE92vnxcPe2oKtEXEu0PHZtuYBR/4dtpAC0dEnqTMwVvtg==}
+>>>>>>> chore: bump deps
     engines: {node: '>=10'}
     dependencies:
       '@node-rs/helper': 1.2.1
     optionalDependencies:
+<<<<<<< HEAD
       '@swc/core-android-arm64': 1.2.111
       '@swc/core-darwin-arm64': 1.2.111
       '@swc/core-darwin-x64': 1.2.111
@@ -4864,11 +4939,32 @@ packages:
     dev: true
 
   /@swc/jest/0.2.5_@swc+core@1.2.111:
+=======
+      '@swc/core-android-arm64': 1.2.110
+      '@swc/core-darwin-arm64': 1.2.110
+      '@swc/core-darwin-x64': 1.2.110
+      '@swc/core-freebsd-x64': 1.2.110
+      '@swc/core-linux-arm-gnueabihf': 1.2.110
+      '@swc/core-linux-arm64-gnu': 1.2.110
+      '@swc/core-linux-arm64-musl': 1.2.110
+      '@swc/core-linux-x64-gnu': 1.2.110
+      '@swc/core-linux-x64-musl': 1.2.110
+      '@swc/core-win32-arm64-msvc': 1.2.110
+      '@swc/core-win32-ia32-msvc': 1.2.110
+      '@swc/core-win32-x64-msvc': 1.2.110
+    dev: true
+
+  /@swc/jest/0.2.5_@swc+core@1.2.110:
+>>>>>>> chore: bump deps
     resolution: {integrity: sha512-7Vb+RXuXWk47QbOPJ3hwSIMCwUVylp7JUhUITVtMe3hMoBv0IMfVCML9p6jiRhoBAzjzYDPPteKoVxSUJjFNPA==}
     peerDependencies:
       '@swc/core': '*'
     dependencies:
+<<<<<<< HEAD
       '@swc/core': 1.2.111
+=======
+      '@swc/core': 1.2.110
+>>>>>>> chore: bump deps
     dev: true
 
   /@testing-library/dom/8.11.1:
