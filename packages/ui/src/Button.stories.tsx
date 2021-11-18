@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { NewButton } from './NewButton'
 import { IconButton } from './IconButton'
 import { Button } from './Button'
 
@@ -13,3 +14,5 @@ export const MyButton = () => {
 }
 
 export const MyIconButton = () => <IconButton />
+
+export const MyNewButton = () => <NewButton />
