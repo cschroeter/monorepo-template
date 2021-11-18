@@ -18,6 +18,7 @@
     "emitDecoratorMetadata": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "preserveSymlinks": true
+    "preserveSymlinks": true,
+    "emitDeclarationOnly": true
   }
 }
