@@ -21,9 +21,12 @@
   },
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "node ./esbuild.js",
+    "build:esm": "tsc --module esnext --outDir dist/esm",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs",
+    "build:types": "tsc",
+    "esbuild": "node ./esbuild.js",
+    "typecheck": "tsc -p tsconfig.test.json",
     "lint": "eslint --fix --ext .ts,.tsx ./src",
-    "types": "tsc --emitDeclarationOnly",
     "test": "jest"
   },
   "dependencies": {
