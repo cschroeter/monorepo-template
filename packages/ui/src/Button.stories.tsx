@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { Button } from './Button'
 import { IconButton } from './IconButton'
+import { Button } from './Button'
 
 export default {
   title: 'My Button Story',

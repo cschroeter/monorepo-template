@@ -40,7 +40,7 @@
       "eslint --fix"
     ],
     "**/*.{js,jsx,ts,tsx,json,html}": [
-      "prettier --write --plugin=./node_modules/prettier-plugin-organize-imports"
+      "prettier --write"
     ]
   },
   "dependencies": {}
