@@ -39,7 +39,7 @@
     "**/*.{js,jsx,ts,tsx}": [
       "eslint --fix"
     ],
-    "**/*.{js,jsx,ts,tsx,json,html}": [
+    "**/*.{js,jsx,ts,tsx,json}": [
       "prettier --write --plugin=./node_modules/prettier-plugin-organize-imports"
     ]
   }
