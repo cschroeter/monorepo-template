@@ -6,5 +6,10 @@ interface ButtonProps {
 }
 
 export const Button = (props: ButtonProps) => {
-  return <button style={{ background: 'blue' }} {...props} />
+  return (
+    <>
+      <div>Hakunamatata</div>
+      <button style={{ background: 'blue' }} {...props} />
+    </>
+  )
 }
