@@ -7,7 +7,6 @@ const Home: NextPage = () => {
     <div>
       <h1>Hello World</h1>
       <Button>Hello</Button>
-      <iframe src="my-component.html" height="100%" width="100%"></iframe>
     </div>
   )
 }
