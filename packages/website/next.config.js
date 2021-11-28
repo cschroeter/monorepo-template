@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+
+const withTM = require('next-transpile-modules')(['@template/ui'])
+
+module.exports = withTM({
   reactStrictMode: true,
   eslint: {
     ignoreDuringBuilds: true,
   },
-}
+})
