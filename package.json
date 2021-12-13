@@ -10,7 +10,8 @@
     "test": "pnpm test -r",
     "lint": "pnpm lint -r --parrallel",
     "ui": "pnpm --filter=@template/ui",
-    "website": "pnpm --filter=@template/website"
+    "nextjs": "pnpm --filter=@template/nextjs",
+    "vite": "pnpm --filter=@template/vite"
   },
   "devDependencies": {
     "@babel/core": "7.16.0",
