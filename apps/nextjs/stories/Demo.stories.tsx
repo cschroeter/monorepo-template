@@ -1,5 +1,5 @@
-import React from 'react'
 import { Button } from '@template/ui'
+import React from 'react'
 
 export default {
   title: 'Demo',
