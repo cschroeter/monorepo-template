@@ -7,13 +7,15 @@
   "sideEffects": false,
   "scripts": {
     "lint": "eslint --fix --ext .ts,.tsx ./src",
-    "test": "jest"
+    "test": "jest",
+    "upload": "template-sripts upload"
   },
   "dependencies": {
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@template/scripts": "1.0.0",
     "@swc/core": "1.2.112",
     "@swc/jest": "0.2.9",
     "@testing-library/jest-dom": "5.15.1",

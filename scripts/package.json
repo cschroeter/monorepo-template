@@ -1,0 +1,13 @@
+{
+  "name": "@template/scripts",
+  "version": "1.0.0",
+  "bin": {
+    "template-sripts": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@swc-node/register": "1.4.1"
+  }
+}
