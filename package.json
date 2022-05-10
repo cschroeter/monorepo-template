@@ -11,7 +11,8 @@
     "lint": "pnpm lint -r --parrallel",
     "ui": "pnpm --filter=@template/ui",
     "nextjs": "pnpm --filter=@template/nextjs",
-    "vite": "pnpm --filter=@template/vite"
+    "vite": "pnpm --filter=@template/vite",
+    "format": "prettier --write '**/?(.)*.{css,scss,js,ts,tsx,json}'"
   },
   "devDependencies": {
     "@babel/core": "7.16.0",
