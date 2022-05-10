@@ -1,6 +1,6 @@
-import { Button } from '@template/ui'
-import type { NextPage } from 'next'
-import React from 'react'
+import { Button } from "@template/ui";
+import type { NextPage } from "next";
+import React from "react";
 
 const Home: NextPage = () => {
   return (
@@ -8,7 +8,7 @@ const Home: NextPage = () => {
       <h1>Hello World</h1>
       <Button>Hello</Button>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
