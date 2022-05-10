@@ -1,6 +1,7 @@
 import { Button } from '@template/ui'
 import React, { useState } from 'react'
 import './App.css'
+import { Demo } from './Demo'
 import logo from './logo.svg'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
         <p>
+          <Demo />
           <Button onClick={() => setCount((count) => count + 1)}>count is: {count}</Button>
         </p>
         <p>
