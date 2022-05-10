@@ -1,6 +1,7 @@
 import { Button } from "@template/ui";
 import React, { useState } from "react";
 import "./App.css";
+import { Demo } from "./Demo";
 import logo from "./logo.svg";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
 
   return (
     <div className="App">
+      <Demo />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
