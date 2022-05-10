@@ -1,8 +1,8 @@
 {
   "printWidth": 100,
-  "singleQuote": false,
+  "singleQuote": true,
   "trailingComma": "all",
   "arrowParens": "always",
-  "semi": true,
+  "semi": false,
   "pluginSearchDirs": ["./node_modules"]
 }
